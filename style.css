@@ -1,0 +1,68 @@
+@import 'reset.css';
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-top:50px;
+    padding:20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2.2222rem;
+    box-shadow: -1px 0px 19px -1px rgb(0 0 0 / 10%);
+}
+
+.list .list__first-box {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.list .list__second-box {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.list .list__third-box {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.list .list__fourth-box {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:1;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.list__title {
+    width:100%;
+    padding:10px;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.list__contents p {
+    padding:10px; 
+}
